@@ -9,4 +9,4 @@ while True:
     # Check the guide if you need more help!
     x = (enemy.pos.x + friend.pos.x) / 2
     y = (enemy.pos.y + friend.pos.y) / 2
-    hero.move({'x': x, 'y': y})
+    hero.moveXY(x, y)
